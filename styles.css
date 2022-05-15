@@ -1,0 +1,56 @@
+body{
+    background: repeating-linear-gradient(
+                  39deg,
+                  #606dbc,
+                  #606dbc 60px,
+                  #465298 60px,
+                  #465298 120px
+                );
+}
+model-viewer{
+    width: 80%;
+    height: 600px;
+    margin: 0 15%;
+    --poster-color:transparent;
+}
+.btns{
+    position:absolute;
+    width: 100px;
+    height: 100%;
+    margin: 20px;
+    top: 10%;
+  }
+.round-btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    margin: 20px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #000;
+    transition: transform 250ms;
+}
+
+.round-btn:hover {
+    transform: scale(1.1);
+}
+
+.strip{
+    position: absolute;
+    left: 76px;
+    top: 0;
+    width: 1%;
+    height: 100%;
+    background-color: #000;
+}
+
+#orbit-btn{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
